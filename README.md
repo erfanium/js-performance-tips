@@ -1,6 +1,6 @@
 # JS / TS Performance tips
 
-#### Don't use Object literals for basic object transforms (5 times faster!)
+#### Don't use Object literals for basic object transforms (5X faster!)
 ```
 // Bad
 function f(o) {
@@ -25,7 +25,7 @@ function f(o) {Object literals
 f({ _id: 1, _v: 1, a: "foo", b: "bar" })
 ```
 
-#### Use promise.catch instead of try/catch (0.36 times faster!)
+#### Use promise.catch instead of try/catch (36% faster!)
 ```js
 // Bad
 try {
