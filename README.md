@@ -1,4 +1,4 @@
-# JS/TS-performance-tips
+# JS/TS Performance tips
 
 #### Use promise.catch instead of try/catch (36% faster!)
 ```js
