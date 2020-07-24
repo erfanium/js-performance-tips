@@ -1,7 +1,7 @@
 # JS / TS Performance tips
 
 #### Don't use Object literals for basic object transforms (5X faster!)
-```
+```js
 // Bad
 function f(o) {
    const { _id, _v, ...b } = o
